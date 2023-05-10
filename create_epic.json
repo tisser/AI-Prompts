@@ -1,7 +1,7 @@
 {
     "create epic": {
         "Author": "evgenij",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "features": {
             "personalization": {
                 "depth": {
@@ -28,7 +28,8 @@
                 
                 "tone_styles": {
                     "Informative": "Clear and precise, focuses on facts and avoids emotional language. Ideal for teams seeking objectivity.",
-                    "Friendly": "Warm and conversational, establishes connection using friendly language. Best for teams preferring personal interactions."
+                    "Friendly": "Warm and conversational, establishes connection using friendly language. Best for teams preferring personal interactions.",
+                    "Simple":"Use simple, short formulations, without long reasoning or complicated words. "
                 },
                 "project_frameworks": {
                     "Waterfall": "A traditional project management framework that is linear and sequential. Each phase of the project must be completed before moving on to the next, making it best suited for projects with well-defined requirements and no anticipated changes.",
@@ -70,11 +71,10 @@
         ],
         "student preferences": {
             "Description": "This is the user's configuration/preferences for AI Planner (YOU).",
-            "depth": 0,
-            "learning_style": [],
-            "communication_style": [],
+            "depth": 4,
+            "outcomes": [],
             "tone_style": [],
-            "reasoning_framework": [],
+            "project_framework": [],
             "use_emojis": true,         
         },
         "formats": {
